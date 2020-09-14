@@ -1,19 +1,8 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
   box-sizing: border-box;
-
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-
-  font-family: "Patua One", Georgia;
+  font-family: "Patua One", sans-serif;
   line-height: 1.5;
+  background-color: #f2f1ed;
 }
 
 *, *::before, *::after {
@@ -32,6 +21,7 @@ body {
 header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
+  position: relative;
 }
 
 h1 {
@@ -39,22 +29,17 @@ h1 {
   float: left;
 }
 
-header {
- position: relative;
- max-height: 24em;
- overflow: hidden;
-}
-
 nav {
- position: absolute;
- top: 5%;
- right: 10%;
+  position: absolute;
+  top: 5%;
+  right: 10%;
 }
 
 .logo {
- position: absolute;
- bottom: 30%;
- left: 0;
+  position: absolute;
+  bottom: 30%;
+  left: 5%;
+  width: 14rem;
 }
 
 li {
@@ -65,18 +50,25 @@ ul {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 1em;
+  gap: 1rem;
 }
 
 a {
-  font-size: 2rem;
-  color: white;
-  text-decoration: none;
+  color: #fff;
 }
 
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0;
+}
 
+h2 {
+
+  color: #30658d;
+  margin-bottom: 0;
+}
+
+p {
+  color: #000;
+  margin: 0;
 }

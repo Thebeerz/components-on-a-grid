@@ -24,9 +24,8 @@ header {
   position: relative;
 }
 
-h1 {
-  display: flex;
-  float: left;
+.pano {
+  padding: 1rem;
 }
 
 nav {
@@ -54,6 +53,7 @@ ul {
 }
 
 a {
+  font-size: 2rem;
   color: #fff;
 }
 

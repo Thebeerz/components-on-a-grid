@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Patua One", sans-serif;
+  font-family: Georgia, serif;
   line-height: 1.5;
   background-color: #f2f1ed;
 }
@@ -65,6 +65,7 @@ ul {
   display: flex;
   justify-content: space-between;
   padding: 0;
+  font-family: "Patua One", sans-serif;
 }
 
 a {
@@ -84,6 +85,7 @@ main {
 h2 {
   color: #30658d;
   margin-bottom: 0;
+  font-family: "Patua One", sans-serif;
 }
 
 p {
